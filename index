@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv = "content-type"
+        content = "text/html; charset=UTF-8">
+  <meta name = "author"
+         content = "Michael Ivy">
+        <title>Puppies!</title>
+        <link rel="stylesheet" href="PuppyLovestyle.css">
+    </head>
+    <body>
+    <div class="wrapper">
+        <div>
+            <header id="site_header">
+              <table bgcolor = orange>
+                <tr>
+                  <td width=700px>
+                <a id="logo"><img src="img/logo.png" alt="Puppy Logo"></a>
+                <td>
+              </tr>
+              </table>
+                <nav class="main_navigation">
+                <div id = "container" background = orange>
+                  <div id = "box1"><a href="#" style="display: block;"><font color=white><border-color: white;>Puppies</a></font color></border-color: white;></div>
+                  <div id ="box2"><a href="#"><font color=white>Dog Breeds</a></font></div>
+                  <div id ="box3"><a href="#"><font color=white>So Cute</a></font color></div>
+              </nav>
+
+           <div id="page_content">
+
+                <section>
+                    <h2 style="color:blue">Puppies are pretty much the best...</h2>
+
+                    <p>Humans have had a strong affinity for dogs of all sorts for <a href="#">tens of thousands of years</a>. We have an undeniable and unique social connection to them. <strong>Our love of puppies</strong> is a direct extension of that affinity.</p>
+
+                    <h3 style="color:blue">So, why do we love puppies?</h3>
+
+                    <ul>
+                        <li><strong>Large eyes and head</strong></li>
+                        <li><strong>Soft fluffy bodies</strong></li>
+                        <li><strong>Adorable antics</strong></li>
+                    </ul>
+                </section>
+                <br>
+                <br>
+                <hr>
+                <section>
+                    <h2 style="color:blue">Table</h2>
+
+                    <p>Below, you'll find some information about a few of the cutest puppies ever.</p>
+
+                    <table border=".1" style="border-color:blue; margin-left: auto;">
+                        <thead>
+                            <tr style="background-color:blue">
+                                <td style="color:white">Breed</td>
+                                <td style="color:white">Image</td>
+                                <td style="color:white">Weight</td>
+                                <td style="color:white">Origin</td>
+                                <td style="color:white">Markings</td>
+                            </tr>
+                        </thead>
+                        <tbody style="border:1;">
+                            <tr>
+                                <td>Chow Chow</td>
+                                <td align="center"><img src="img/puppy__12.jpg" alt="; height="52" width= "70"></td>
+                                <td style="width:65px">45-70lb</td>
+                                <td style="width:80px">China</td>
+                                <td>Think and course coat; red, brown and black</td>
+                            </tr>
+                            <tr>
+                                <td>Doberman Pinscher</td>
+                                <td align="center"><img src="img/puppy__13.jpg" alt=""; height="52" width= "70"></td>
+                                <td>32-45lb</td>
+                                <td>Germany</td>
+                                <td>Short coat; black, red, brown, blue</td>
+                            </tr>
+                            <tr>
+                                <td>Golden Retriever</td>
+                                <td align="center"><img src="img/puppy__11.jpg" alt=""; height="52" width= "70"></td>
+                                <td>55-75lb</td>
+                                <td>Scotland</td>
+                                <td>Straight or wavy fur; cream and gold</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr>
+                </section>
+
+                <section>
+                    <h2 style="color:blue">Puppy love!</h2>
+
+                    <p>Tell us why you love puppies!</p>
+                    <br>
+                    <form action="#">
+
+                        <div class="name">
+                            <label for="first_name">First Name:</label>
+                            <input type="text" name="first_name" id="first_name">
+                            <label for="last_name">Last Name:</label>
+                            <input type="text" name="last_name" id="last_name">
+                        </div>
+                        <br>
+                        <br>
+                        <div class="city_container">
+                            <label for="city">Favorite Breed:</label>
+                            <select name="city" id="city">
+                                <option value="south_carolina">Chow Chow</option>
+                                <option value="california">Doberman Pinscher</option>
+                                <option value="new_york">Golden Retriever</option>
+                            </select>
+                        </div>
+                        <br>
+                        <br>
+                        <div>
+                            <label for="bio">Why do you Love Puppies?</label>
+                            <br>
+                            <textarea name="bio" id="bio" cols="115" rows="10">Puppies are the best because...</textarea>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="submit_container">
+                            <input type="submit" id="submit_button" value="Submit!">
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </body>
+</html>

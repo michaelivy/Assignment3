@@ -1,0 +1,60 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+body {
+  background: #ddb;
+}
+
+
+#container {
+  background:orange;
+  height: 25px;
+  width: 710px;
+  margin: 0 auto;
+  box-shadow: 0 5px 8 px rgba(0, 0, 0, 0.3);
+}
+/* I can't get this portion of coding to work properly!!!
+#name {
+  background:orange;
+  height: 25px;
+  width: 710px;
+  margin: 0 auto;
+  box-shadow: 0 5px 8 px rgba(0, 0, 0, 0.3);
+}
+*/
+#box1,
+#box2,
+#box3 {
+  width:  80px;
+  margin: 0px;
+  border: 12px;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+}
+#box1 {
+  float: left;
+}
+#box2 {
+  float: left;
+}
+#box3 {
+  float: left;
+}
+h2 {
+  clear: both;
+}
+p {
+  clear: both;
+}
